@@ -1,0 +1,27 @@
+body
+{
+    margin: 0px;
+    padding: 0px;
+    background: #FFFFFF;
+}      
+.menu ul{
+    text-align: center;
+    background: #0074D9;   
+}    
+.menu li{
+    display: inline-block;
+}     
+.menu li a{
+    display: inline-block;
+    padding: 0em 1.5em;
+    text-decoration: none;
+    font-weight: 600;
+    text-transform: uppercase;
+    line-height: 60px;
+    color: #FFF;
+}       
+.menu li:hover a
+{
+    background: #FFF;
+    color: #0074D9;
+}
