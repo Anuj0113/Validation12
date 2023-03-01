@@ -1,0 +1,170 @@
+body
+{
+       margin: 0;
+       padding: 0;
+       background-size: cover;
+       background-position: center;
+}
+.sign-up-form
+{
+       width: 800px;
+       height: 1100px;
+       box-shadow: 0 0 100px 0 rgba(0,0,0,0.3);
+       background-color: white;
+       margin-top: 60px;
+       margin-left: 150px;
+       padding: 20px;
+       text-align: center;      
+}
+.sign-up-form1
+{
+       width: 800px;
+       height: 1000px;
+       box-shadow: 0 0 100px 0 rgba(0,0,0,0.3);
+       background-color: white;
+       margin-top: 70px;
+       margin-left: 1600px;
+       padding: 20px;
+       text-align: center;      
+}
+.header 
+{
+       overflow: hidden;
+       background-color: #fe7c78;
+       padding: 20px 10px;
+}
+.header a 
+{
+       float: left;
+       color: white;
+       text-align: center;
+       padding: 12px;
+       text-decoration: none;
+       font-size: 30px;
+       line-height: 25px;
+       border-radius: 4px;
+}
+.header a.logo 
+{
+       font-size: 80px;
+       font-weight: bold;
+}
+.header a:hover 
+{
+       background-color: #ddd;
+       color: black;
+}
+.header a.active 
+{
+       background-color: dodgerblue;
+       color: white;
+}
+.menu1 
+{
+       float: right;
+}      
+@media screen and (max-width: 500px) 
+{
+       .header a 
+       {
+              float: none;
+              display: block;
+              text-align: left;
+       }
+.menu1 
+{
+       float: none;
+}
+}
+h1
+{
+       font-size: 60px;
+       color: blue;
+       margin-top: 30px;
+       margin-bottom: 30px;
+}
+b
+{
+       font-size: 40px;
+       margin-top: 50px;
+       margin-bottom: 50px;
+}
+a
+{
+       text-decoration: none;
+}
+hr
+{
+       margin-top: 40px;
+       width: 80%;
+}
+.or
+{
+       font-size: 30px;
+       background: #fff;
+       color: #000;
+       width: 80px;
+       margin: -25px auto 10px;
+}
+.usericon
+{
+       width: 100px;
+       height: 100px;
+       border: 10px solid #999;
+       border-color: #000;
+       border-radius: 50%;
+       margin-top: -70px;
+}
+.login
+{
+       width: 50%;
+       height: 110%;
+       margin-left: 1200px;
+       margin-top: -1250px;
+}
+.login1
+{
+       width: 50%;
+       height: 90%;
+       margin-left: 50px;
+       margin-top: -1100px;
+}
+.login2
+{
+       width: 50%;
+       height: 90%;
+       margin-left: 1200px;
+       margin-top: -1100px;
+}
+.checkbox
+{
+       width: 30px;
+       height: 30px;
+}
+.input-box
+{
+       font-size: 30px;
+       border-radius: 50px;
+       padding: 10px;
+       margin: 10px 0;
+       width: 100%;
+       border: 10px solid #999;
+       border-color: #1c8adb;
+       outline: none;
+}
+button
+{
+       color: #fff;
+       width: 50%;
+       padding: 10px;
+       border-radius: 20px;
+       font-size: 30px;
+       margin: 10px 0;
+       border: none;
+       outline: none;
+       cursor: pointer;
+}
+.signup-btn
+{
+       background-color: #1c8adb;
+}
