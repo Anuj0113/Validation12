@@ -1,76 +1,51 @@
 <html>
+<link rel="stylesheet" type="text/css" href="css/style3.css">
 <style type="text/css">
-
     body
     {
     margin: 0;
     padding: 0; 
-    background-image: url("my.jpg");
     background-size: cover; 
     background-position: center;
+    background-color: grey;
     } 
-    .sign-up-form1
-{
-    width: 1400px;
-    height: 1000px;
-    
-    padding: 20px;
-    margin: 5% auto 0;
-    text-align: center;
-}
-    h2
-    {
-    font-size: 50px;
-    margin-top: 30px;
-    margin-bottom: 30px;
-    color: darkcyan;
-    }
-    .or
-    {
-    font-size: 50px;
-    background: #fff;
-    color: #000;
-    width: 80px;
-    margin: 340px auto 10px;
-    }
-    .manufacturer
-{
-    width: 400px;
-    height: 400px;
-    border: 10px solid #999;
-    border-color: #1c8adb;
-    border-radius: 20%;
-
-}
-.customer
-{
-    width: 400px;
-    height: 400px;
-    border: 10px solid #999;
-    border-color: #1c8adb;
-    border-radius: 20%;
-    margin-left: 800px;
-    
-
-}
 </style>
 <body>
+
+  <div class="header">
+    <b>
+    <a href="#default" class="logo"><img src="image/logo.png"></a>
+        <div class="menu1">
+            <a href="interface.html">Home</a>
+            <a href="about us.html">About Us</a>
+            <a href="#contact">FAQ</a>
+        </div>
+    </b>
+</div>
+
 <div class="sign-up-form1">
              
              <h2>Welcome To Product Validation</h2>
-
-              <a href="Manufacture/Manufacture.php"> 
-              <img class="manufacturer" src="Manufacture/image/manufacturer.jpg">
+            <b><h1>Are You..?</h1>
+              <a href="Mlogin.php"> 
+              <img class="manufacturer" src="image/m.jpg">
               </a>
 
              
 
-              <h3 class="or">OR</h3>
+              <h3 class="or">OR</h3></b>
 
-              <a href="Customer/Customer.php"> 
-              <img class="customer" src="Customer/CSS FILE/image/customer.jpg">
+              <a href="Clogin.php"> 
+              <img class="customer" src="image/c.jpg">
               </a>
-                 
+                
 </div> 
+
+<br>
+<br>
+<br>
+
+
+
 </body>
 </html>
