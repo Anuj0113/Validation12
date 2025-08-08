@@ -1,32 +1,37 @@
 <html>
-<link rel="stylesheet" type="text/css" href="css/style3.css">
+<link rel="stylesheet" type="text/css" href="css/style3.css"> <title>Product Validation</title>
+        <link rel="icon" type="image/x-icon" href="html/image/logo125.png">
 <style type="text/css">
     body
     {
     margin: 0;
     padding: 0; 
-    background-size: cover; 
-    background-position: center;
     background-color: grey;
     } 
+ .header 
+{
+    overflow: hidden;
+    background-color: #fe7c78;
+    padding: 20px 10px;
+    width: 98.64%;
+    height: 0%;
+}
+.header a
+{
+    margin-top: -25px;
+}
 </style>
+
 <body>
 
   <div class="header">
-    <b>
-    <a href="#default" class="logo"><img src="image/logo.png"></a>
-        <div class="menu1">
-            <a href="interface.html">Home</a>
-            <a href="about us.html">About Us</a>
-            <a href="#contact">FAQ</a>
-        </div>
-    </b>
-</div>
+    <a href="interface.html">&larr; Back</a>
+  </div>
 
-<div class="sign-up-form1">
+  <div class="sign-up-form1">
              
-             <h2>Welcome To Product Validation</h2>
-            <b><h1>Are You..?</h1>
+              <h2>Welcome To Product Validation</h2>
+              <b><h1>Are You..?</h1>
               <a href="Mlogin.php"> 
               <img class="manufacturer" src="image/m.jpg">
               </a>
@@ -39,7 +44,7 @@
               <img class="customer" src="image/c.jpg">
               </a>
                 
-</div> 
+  </div> 
 
 <br>
 <br>

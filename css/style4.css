@@ -1,4 +1,4 @@
-body
+       body
 {
        margin: 0;
        padding: 0;
@@ -7,42 +7,43 @@ body
 }
 .sign-up-form
 {
-       width: 800px;
-       height: 1100px;
+       width: 450px;
+       height: 810px;
        box-shadow: 0 0 100px 0 rgba(0,0,0,0.3);
        background-color: white;
-       margin-top: 60px;
-       margin-left: 150px;
+       margin-top: 45px;
+       margin-left: 100px;
        padding: 20px;
        text-align: center;      
 }
 .sign-up-form1
 {
-       width: 800px;
-       height: 1000px;
+       width: 450px;
+       height: 550px;
        box-shadow: 0 0 100px 0 rgba(0,0,0,0.3);
        background-color: white;
        margin-top: 70px;
-       margin-left: 1600px;
+       margin-left: 850px;
        padding: 20px;
        text-align: center;      
 }
-.header 
+ .header 
 {
-       overflow: hidden;
-       background-color: #fe7c78;
-       padding: 20px 10px;
+    overflow: hidden;
+    background-color: #fe7c78;
+    padding: 20px 10px;
+    width: 98.64%;
+    height: 0%;
 }
 .header a 
 {
-       float: left;
-       color: white;
-       text-align: center;
-       padding: 12px;
-       text-decoration: none;
-       font-size: 30px;
-       line-height: 25px;
-       border-radius: 4px;
+    float: left;
+    color: white;
+    text-decoration: none;
+    font-size: 13px;
+    margin-top: -12px;
+    line-height: 25px;
+    border-radius: 4px;
 }
 .header a.logo 
 {
@@ -78,15 +79,21 @@ body
 }
 h1
 {
-       font-size: 60px;
+       font-size: 30px;
        color: blue;
-       margin-top: 30px;
+       margin-top: 10px;
        margin-bottom: 30px;
+}
+h2
+{
+       font-size: 30px;
+       color: blue;
+       margin-top: -10px;
+       margin-bottom: 30px
 }
 b
 {
-       font-size: 40px;
-       margin-top: 50px;
+       font-size: 20px;
        margin-bottom: 50px;
 }
 a
@@ -95,7 +102,7 @@ a
 }
 hr
 {
-       margin-top: 40px;
+       margin-top: 10px;
        width: 80%;
 }
 .or
@@ -108,47 +115,47 @@ hr
 }
 .usericon
 {
-       width: 100px;
-       height: 100px;
-       border: 10px solid #999;
+       width: 70px;
+       height: 70px;
+       border: 5px solid #999;
        border-color: #000;
        border-radius: 50%;
-       margin-top: -70px;
+       margin-top: -60px;
 }
 .login
 {
        width: 50%;
        height: 110%;
-       margin-left: 1200px;
-       margin-top: -1250px;
+       margin-left: 700px;
+       margin-top: -950px;
 }
 .login1
 {
        width: 50%;
        height: 90%;
-       margin-left: 50px;
-       margin-top: -1100px;
+       margin-left: 30px;
+       margin-top: -650px;
 }
 .login2
 {
        width: 50%;
-       height: 90%;
-       margin-left: 1200px;
-       margin-top: -1100px;
+       height: 100%;
+       margin-left: 700px;
+       margin-top: -850px;
 }
 .checkbox
 {
-       width: 30px;
-       height: 30px;
+       width: 20px;
+       height: 20px;
 }
 .input-box
 {
-       font-size: 30px;
+       font-size: 20px;
        border-radius: 50px;
        padding: 10px;
        margin: 10px 0;
        width: 100%;
-       border: 10px solid #999;
+       border: 7px solid #999;
        border-color: #1c8adb;
        outline: none;
 }
@@ -158,7 +165,7 @@ button
        width: 50%;
        padding: 10px;
        border-radius: 20px;
-       font-size: 30px;
+       font-size: 20px;
        margin: 10px 0;
        border: none;
        outline: none;

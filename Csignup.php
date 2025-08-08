@@ -1,16 +1,10 @@
 <html>
-<head><link rel="stylesheet" type="text/css" href="css/style4.css"></head>
-	<body>
+<head><link rel="stylesheet" type="text/css" href="css/style4.css">
+ <title>Product Validation</title>
+        <link rel="icon" type="image/x-icon" href="html/image/logo125.png"><body>
 		<div class="header">
-    	<b>
-    	<a href="#default" class="logo"><img src="image/logo.png"></a>
-        		<div class="menu1">
-            		<a href="interface.html">Home</a>
-            		<a href="about us.html">About Us</a>
-            		<a href="#contact">FAQ</a>
-        		</div>
-    	</b>
-		</div>
+    		<a href="Clogin.php">&larr; Back</a>
+  		</div>
 
 
 		<div class="sign-up-form">
@@ -19,6 +13,9 @@
 			<h1>Sign Up</h1>
 
 			<FORM action="Csignupconnect.php" method="post">
+
+				<b>Name:</b>
+                <input class="input-box" id="alphabets" name="name" placeholder="Enter Your Name" type="text" required>
 
 				<b>Email:</b>
                 <input class="input-box" type="email" name="email" placeholder="Enter Email Id" required><br><br>
@@ -37,7 +34,7 @@
 				<b><p class="or">OR</p></b>
 
 				<b>Already Have Account?</b><a href="Clogin.php"><h1>Login</h1></a>
-				<a href="interface.html"><h1>Home</h1></a>
+				<a href="interface.html"><h2>Home</h2></a>
 
 			</FORM>
 		</div>

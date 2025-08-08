@@ -1,0 +1,266 @@
+body
+{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+  
+span::before
+{
+  content: "Original";
+  animation: animate infinite 3s;
+  padding-left: 10px;
+}
+@keyframes animate 
+{
+  0% 
+  {
+      content: "Original";
+  }
+  45% 
+  {
+      content: "Worth";
+  }
+  50% 
+  {
+      content: "Appropiate";
+  }
+  100%
+  {
+      content: "Correct";
+  }
+}
+
+
+
+.image 
+{
+    width: 100%;
+    height: 140%;
+    margin-top: -680px;
+}
+.image1 
+{
+  width: 50%;
+  height: 90%;
+  margin-left: 700px;
+  margin-top: -400px;
+}
+.image2 
+{
+  width: 75%;
+  height: 80%;
+  margin-left: -700px;
+  margin-top: -500px;
+}
+.image3
+{
+  width: 45%;
+  height: 80%;
+  margin-left: 800px;
+  margin-top: -1300px;
+}
+.image4
+{
+width: 50px;
+height: 50px;
+}
+.as
+{
+    color: white;
+}
+.as1
+{
+    font-size: 50px;
+    margin-left: 800px;
+}
+.text
+{
+    font-size: 40px;
+    position: absolute;
+    margin-left: 200px;
+    margin-top: -300px;
+}
+.text1
+{
+    font-size: 40px;
+    margin-left: 260px;
+    margin-top: -270px;
+    display: flex;
+    position:absolute; 
+}
+.text2
+{
+    font-size: 30px;
+    margin-left: 350px;
+    color: #fe7c78;
+}
+.text3
+{
+   font-size: 20px;
+   margin-left: 100px;
+}
+.text4
+{
+    font-size: 20px;
+    margin-left: 100px;
+}
+.text5
+{
+    font-size: 20px;
+    margin-left: 100px;
+}
+.text6
+{
+    font-size: 20px;
+    margin-left: 0px;
+    color: #fe7c78;
+}
+.text7
+{
+    font-size: 30px;
+    margin-left: 270px;
+    color: #fe7c78;
+}
+.text8
+{
+    font-size: 20px;
+    margin-left: 270px;
+}
+p
+{
+  font-size: 20px;
+}
+
+.sign-up-form1
+{
+    margin-top: 70px;
+    margin-left: 180px;
+    width: 73%;
+    height: 70%;
+    background-color: white;
+    color: #ffffff;
+    padding: 20px;
+    text-align: center;
+}
+h1
+{
+    font-size: 20px;
+    color: black;
+}
+h2
+{
+    color: #fe7c78;
+    font-size: 30px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.or
+{
+    font-size: 30px;
+    background: #fff;
+    color: #000;
+    width: 80px;
+    margin: -150px auto 10px;
+}
+.manufacturer
+{
+    width: 250px;
+    height: 250px;
+    margin-right:600px;
+    border: 7px solid #999;
+    border-color: #1c8adb;
+    border-radius: 20%;
+    margin-top: 10px;
+}
+.customer
+{
+    width: 250px;
+    height: 250px;
+    margin-left:600px;
+    border: 7px solid #999;
+    border-color: #1c8adb;
+    border-radius: 20%;
+    margin-bottom: 200px;
+    margin-top: -160px;
+}
+
+
+
+
+
+b
+{
+    font-size: 20px;
+}
+html
+{
+    scroll-behavior: smooth;
+}
+.FAQ1
+{
+    margin-top: 500px;
+    margin-left: -100px;
+}
+
+
+
+.fa 
+{
+    padding: 20px;
+    font-size: 15px;
+    width: 100px;
+    text-decoration: none;
+}
+.fa:hover 
+{
+    opacity: 0.7;
+}
+.fa-facebook
+{
+    background: #3B5998;
+    color: white;
+}
+.fa-twitter 
+{
+    background: #55ACEE;
+    color: white;
+}
+.fa-google 
+{
+    background: #dd4b39;
+    color: white;
+}
+.fa-linkedin 
+{
+    background: #007bb5;
+    color: white;
+}
+.fa-youtube 
+{
+    background: #bb0000;
+    color: white;
+}
+.fa-instagram 
+{
+    background: #125688;
+    color: white;
+}
+hr
+{
+    width: 100%;
+    height: 5px;
+    color: black;
+    background-color: black;
+}
+i
+{
+  font-size: 20px;
+  margin-left: 400px;
+  color: black;
+}
+.call
+{
+    width: 20px;
+    margin-left: 200px;
+    margin-bottom:15px ;
+}
